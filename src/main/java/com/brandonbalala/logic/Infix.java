@@ -141,6 +141,10 @@ public class Infix {
 			//Check that it truly is a numeric
 			if (!EvaluatorUtility.isNumeric(number))
 				throwInfixParsingException(EvaluatorUtility.NUMBER_FORMAT_ERR_MSG);
+			
+			//Check whether trying to divide by zero
+			if(Double.parseDouble(number) == 0.0 && EvaluatorUtility.isDivision(lastOffer))
+				throwInfixParsingException(EvaluatorUtility.DIVIDE_BY_ZERO_MSG);
 
 			//Adding to the infix queue
 			infixQueue.offer(number);

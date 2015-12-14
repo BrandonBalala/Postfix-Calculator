@@ -26,6 +26,7 @@ public final class EvaluatorUtility {
 	public static final String NUMBER_FORMAT_ERR_MSG = "Invalid expression, invalid format for a number";
 	public static final String EMPTY_ERR_MSG = "Invalid expression, passed a null or an empty string";
 	public static final String SOLVE_ERROR_MSG = "No postfix expression has been set on this instance";
+	public static final String DIVIDE_BY_ZERO_MSG = "Can not divide by 0";
 	
 
 	/**

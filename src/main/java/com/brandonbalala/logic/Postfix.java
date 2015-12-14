@@ -119,6 +119,10 @@ public class Postfix {
 				if (EvaluatorUtility.isClosingParenthesis(lastElement)) {
 					throwPostfixParsingException(EvaluatorUtility.NUMBER_ERR_MSG);
 				}
+				
+				if(Double.parseDouble(element) == 0.0 && EvaluatorUtility.isDivision(lastElement))
+					throwPostfixParsingException(EvaluatorUtility.DIVIDE_BY_ZERO_MSG);
+				
 			} else {
 				throwPostfixParsingException(EvaluatorUtility.CHARACTER_ERR_MSG);
 			}
