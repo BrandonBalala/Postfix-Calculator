@@ -14,9 +14,7 @@ import org.junit.runners.Parameterized;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.brandonbalala.exception.InfixParsingException;
 import com.brandonbalala.exception.PostfixParsingException;
-import com.brandonbalala.logic.Infix;
 import com.brandonbalala.logic.Postfix;
 
 @RunWith(Parameterized.class)
@@ -82,13 +80,18 @@ public class EvaluatorTestWithQueue {
 		try {
 			postfix.parsePostfix(infixQueue);
 		} catch (PostfixParsingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			log.info(e.getMessage());
 		} catch (Exception e) {
-			e.printStackTrace();
+			log.info(e.getMessage());
 		}
 
-		Double result = Math.round(postfix.solvePostfixExpression() * 100.0) / 100.0;
+		Double result = 0.0;
+		try {
+			result = Math.round(postfix.solvePostfixExpression() * 100.0) / 100.0;
+		} catch (PostfixParsingException e) {
+			log.info(e.getMessage());
+		}
+		
 		log.info("Expected Result : " + expectedResult);
 		log.info("Actual Result : " + result);
 

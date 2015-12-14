@@ -168,3 +168,173 @@
 [INFO ] 2015-12-13 16:06:41.794 [main] EvaluatorTestWithQueue - Parameterized String is : (((9+10)))+2
 [INFO ] 2015-12-13 16:06:41.795 [main] EvaluatorTestWithQueue - Expected Result : 21.0
 [INFO ] 2015-12-13 16:06:41.795 [main] EvaluatorTestWithQueue - Actual Result : 21.0
+[INFO ] 2015-12-13 20:52:41.910 [main] EvaluatorTestException - Parameterized String is : 0.2HELLO KEN0.2+1.01*6
+[INFO ] 2015-12-13 20:52:41.912 [main] EvaluatorTestException - Invalid expression. Can only be composed of numbers, operators and parentheses
+[INFO ] 2015-12-13 20:52:41.914 [main] EvaluatorTestException - Parameterized String is : (44//)*(53/2)
+[INFO ] 2015-12-13 20:52:41.915 [main] EvaluatorTestException - Invalid expression, an operator can't proceed another operator or an opening parenthesis
+[INFO ] 2015-12-13 20:52:41.915 [main] EvaluatorTestException - Parameterized String is : 100*4(-72)63
+[INFO ] 2015-12-13 20:52:41.915 [main] EvaluatorTestException - Invalid expression, an opening parenthesis can't proceed a number or an closing parenthesis
+[INFO ] 2015-12-13 20:52:41.916 [main] EvaluatorTestException - Parameterized String is : )(86*1.63)/2)*54
+[INFO ] 2015-12-13 20:52:41.916 [main] EvaluatorTestException - Invalid expression, can't start expression with an operator or a closing parenthesis
+[INFO ] 2015-12-13 20:52:41.916 [main] EvaluatorTestException - Parameterized String is : (((9+10)))+2/
+[INFO ] 2015-12-13 20:52:41.916 [main] EvaluatorTestException - Invalid expression, can't end expression with an operator or an opening parenthesis
+[INFO ] 2015-12-13 20:52:47.531 [main] EvaluatorTestWithInfixClass - Parameterized String is : (500*1.7/-5.3)+2-0.75/1.45
+[INFO ] 2015-12-13 20:52:47.535 [main] EvaluatorTestWithInfixClass - Expected Result : -158.89
+[INFO ] 2015-12-13 20:52:47.535 [main] EvaluatorTestWithInfixClass - Actual Result : -158.89
+[INFO ] 2015-12-13 20:52:47.536 [main] EvaluatorTestWithInfixClass - Parameterized String is : (-96/7)+(0.99*70)/(1.07*2)
+[INFO ] 2015-12-13 20:52:47.537 [main] EvaluatorTestWithInfixClass - Expected Result : 18.67
+[INFO ] 2015-12-13 20:52:47.537 [main] EvaluatorTestWithInfixClass - Actual Result : 18.67
+[INFO ] 2015-12-13 20:52:47.537 [main] EvaluatorTestWithInfixClass - Parameterized String is : 68+(2+9-18)/1.2*5.3
+[INFO ] 2015-12-13 20:52:47.538 [main] EvaluatorTestWithInfixClass - Expected Result : 37.08
+[INFO ] 2015-12-13 20:52:47.538 [main] EvaluatorTestWithInfixClass - Actual Result : 37.08
+[INFO ] 2015-12-13 20:52:47.539 [main] EvaluatorTestWithInfixClass - Parameterized String is : -99+3+1-2/(-4+0.5)
+[INFO ] 2015-12-13 20:52:47.539 [main] EvaluatorTestWithInfixClass - Expected Result : -94.43
+[INFO ] 2015-12-13 20:52:47.539 [main] EvaluatorTestWithInfixClass - Actual Result : -94.43
+[INFO ] 2015-12-13 20:52:47.540 [main] EvaluatorTestWithInfixClass - Parameterized String is : (100/0.3*0.5+4)*0.75
+[INFO ] 2015-12-13 20:52:47.540 [main] EvaluatorTestWithInfixClass - Expected Result : 128.0
+[INFO ] 2015-12-13 20:52:47.540 [main] EvaluatorTestWithInfixClass - Actual Result : 128.0
+[INFO ] 2015-12-13 20:52:47.541 [main] EvaluatorTestWithInfixClass - Parameterized String is : 30/(50+0.5)*10/-5
+[INFO ] 2015-12-13 20:52:47.541 [main] EvaluatorTestWithInfixClass - Expected Result : -1.19
+[INFO ] 2015-12-13 20:52:47.541 [main] EvaluatorTestWithInfixClass - Actual Result : -1.19
+[INFO ] 2015-12-13 20:52:47.542 [main] EvaluatorTestWithInfixClass - Parameterized String is : (10-20)*2-3*2
+[INFO ] 2015-12-13 20:52:47.542 [main] EvaluatorTestWithInfixClass - Expected Result : -26.0
+[INFO ] 2015-12-13 20:52:47.542 [main] EvaluatorTestWithInfixClass - Actual Result : -26.0
+[INFO ] 2015-12-13 20:52:47.543 [main] EvaluatorTestWithInfixClass - Parameterized String is : (4*2+3-2)/(6/8)
+[INFO ] 2015-12-13 20:52:47.543 [main] EvaluatorTestWithInfixClass - Expected Result : 12.0
+[INFO ] 2015-12-13 20:52:47.543 [main] EvaluatorTestWithInfixClass - Actual Result : 12.0
+[INFO ] 2015-12-13 20:52:47.544 [main] EvaluatorTestWithInfixClass - Parameterized String is : (1+8-5/2)*2+4
+[INFO ] 2015-12-13 20:52:47.544 [main] EvaluatorTestWithInfixClass - Expected Result : 17.0
+[INFO ] 2015-12-13 20:52:47.544 [main] EvaluatorTestWithInfixClass - Actual Result : 17.0
+[INFO ] 2015-12-13 20:52:47.545 [main] EvaluatorTestWithInfixClass - Parameterized String is : 18+2-0.75/(-2*0.5)
+[INFO ] 2015-12-13 20:52:47.545 [main] EvaluatorTestWithInfixClass - Expected Result : 20.75
+[INFO ] 2015-12-13 20:52:47.545 [main] EvaluatorTestWithInfixClass - Actual Result : 20.75
+[INFO ] 2015-12-13 20:52:56.338 [main] EvaluatorTestWithQueue - Parameterized String is : 1+255/3+(1*2)
+[INFO ] 2015-12-13 20:52:56.341 [main] EvaluatorTestWithQueue - Expected Result : 88.0
+[INFO ] 2015-12-13 20:52:56.342 [main] EvaluatorTestWithQueue - Actual Result : 88.0
+[INFO ] 2015-12-13 20:52:56.344 [main] EvaluatorTestWithQueue - Parameterized String is : (360-2.50)/(2*(3-2)+62)
+[INFO ] 2015-12-13 20:52:56.344 [main] EvaluatorTestWithQueue - Expected Result : 5.59
+[INFO ] 2015-12-13 20:52:56.344 [main] EvaluatorTestWithQueue - Actual Result : 5.59
+[INFO ] 2015-12-13 20:52:56.345 [main] EvaluatorTestWithQueue - Parameterized String is : (2*3/1)+2
+[INFO ] 2015-12-13 20:52:56.345 [main] EvaluatorTestWithQueue - Expected Result : 8.0
+[INFO ] 2015-12-13 20:52:56.346 [main] EvaluatorTestWithQueue - Actual Result : 8.0
+[INFO ] 2015-12-13 20:52:56.346 [main] EvaluatorTestWithQueue - Parameterized String is : 1+(2.5-0.75)/70
+[INFO ] 2015-12-13 20:52:56.346 [main] EvaluatorTestWithQueue - Expected Result : 1.02
+[INFO ] 2015-12-13 20:52:56.347 [main] EvaluatorTestWithQueue - Actual Result : 1.02
+[INFO ] 2015-12-13 20:52:56.348 [main] EvaluatorTestWithQueue - Parameterized String is : (-22+4)/9
+[INFO ] 2015-12-13 20:52:56.348 [main] EvaluatorTestWithQueue - Expected Result : -2.0
+[INFO ] 2015-12-13 20:52:56.348 [main] EvaluatorTestWithQueue - Actual Result : -2.0
+[INFO ] 2015-12-13 20:52:56.349 [main] EvaluatorTestWithQueue - Parameterized String is : ((64-7)+(44/4))/2
+[INFO ] 2015-12-13 20:52:56.351 [main] EvaluatorTestWithQueue - Expected Result : 34.0
+[INFO ] 2015-12-13 20:52:56.351 [main] EvaluatorTestWithQueue - Actual Result : 34.0
+[INFO ] 2015-12-13 20:52:56.352 [main] EvaluatorTestWithQueue - Parameterized String is : 3.6+-0.2-4*9
+[INFO ] 2015-12-13 20:52:56.352 [main] EvaluatorTestWithQueue - Expected Result : -32.6
+[INFO ] 2015-12-13 20:52:56.352 [main] EvaluatorTestWithQueue - Actual Result : -32.6
+[INFO ] 2015-12-13 20:52:56.353 [main] EvaluatorTestWithQueue - Parameterized String is : 34*4+((9*10)/2)
+[INFO ] 2015-12-13 20:52:56.353 [main] EvaluatorTestWithQueue - Expected Result : 181.0
+[INFO ] 2015-12-13 20:52:56.353 [main] EvaluatorTestWithQueue - Actual Result : 181.0
+[INFO ] 2015-12-13 20:52:56.354 [main] EvaluatorTestWithQueue - Parameterized String is : (-0.4+-1.5+4)*5
+[INFO ] 2015-12-13 20:52:56.354 [main] EvaluatorTestWithQueue - Expected Result : 10.5
+[INFO ] 2015-12-13 20:52:56.354 [main] EvaluatorTestWithQueue - Actual Result : 10.5
+[INFO ] 2015-12-13 20:52:56.354 [main] EvaluatorTestWithQueue - Parameterized String is : ((74+52)/2)*((9*8)/4)
+[INFO ] 2015-12-13 20:52:56.355 [main] EvaluatorTestWithQueue - Expected Result : 1134.0
+[INFO ] 2015-12-13 20:52:56.355 [main] EvaluatorTestWithQueue - Actual Result : 1134.0
+[INFO ] 2015-12-13 20:52:56.355 [main] EvaluatorTestWithQueue - Parameterized String is : 0.2*0.2+1.01*6
+[INFO ] 2015-12-13 20:52:56.356 [main] EvaluatorTestWithQueue - Expected Result : 6.1
+[INFO ] 2015-12-13 20:52:56.356 [main] EvaluatorTestWithQueue - Actual Result : 6.1
+[INFO ] 2015-12-13 20:52:56.356 [main] EvaluatorTestWithQueue - Parameterized String is : (44/2)*(53/2)
+[INFO ] 2015-12-13 20:52:56.357 [main] EvaluatorTestWithQueue - Expected Result : 583.0
+[INFO ] 2015-12-13 20:52:56.357 [main] EvaluatorTestWithQueue - Actual Result : 583.0
+[INFO ] 2015-12-13 20:52:56.357 [main] EvaluatorTestWithQueue - Parameterized String is : 100*4+-72+63
+[INFO ] 2015-12-13 20:52:56.358 [main] EvaluatorTestWithQueue - Expected Result : 391.0
+[INFO ] 2015-12-13 20:52:56.358 [main] EvaluatorTestWithQueue - Actual Result : 391.0
+[INFO ] 2015-12-13 20:52:56.358 [main] EvaluatorTestWithQueue - Parameterized String is : ((86*1.63)/2)*54
+[INFO ] 2015-12-13 20:52:56.359 [main] EvaluatorTestWithQueue - Expected Result : 3784.86
+[INFO ] 2015-12-13 20:52:56.359 [main] EvaluatorTestWithQueue - Actual Result : 3784.86
+[INFO ] 2015-12-13 20:52:56.359 [main] EvaluatorTestWithQueue - Parameterized String is : (((9+10)))+2
+[INFO ] 2015-12-13 20:52:56.359 [main] EvaluatorTestWithQueue - Expected Result : 21.0
+[INFO ] 2015-12-13 20:52:56.360 [main] EvaluatorTestWithQueue - Actual Result : 21.0
+[INFO ] 2015-12-13 22:40:36.521 [main] EvaluatorTestException - Parameterized String is : 0.2HELLO KEN0.2+1.01*6
+[INFO ] 2015-12-13 22:40:36.524 [main] EvaluatorTestException - Invalid expression. Can only be composed of numbers, operators and parentheses
+[INFO ] 2015-12-13 22:40:36.527 [main] EvaluatorTestException - Parameterized String is : (44//)*(53/2)
+[INFO ] 2015-12-13 22:40:36.528 [main] EvaluatorTestException - Invalid expression, an operator can't proceed another operator or an opening parenthesis
+[INFO ] 2015-12-13 22:40:36.528 [main] EvaluatorTestException - Parameterized String is : 100*4(-72)63
+[INFO ] 2015-12-13 22:40:36.529 [main] EvaluatorTestException - Invalid expression, an opening parenthesis can't proceed a number or an closing parenthesis
+[INFO ] 2015-12-13 22:40:36.529 [main] EvaluatorTestException - Parameterized String is : )(86*1.63)/2)*54
+[INFO ] 2015-12-13 22:40:36.529 [main] EvaluatorTestException - Invalid expression, can't start expression with an operator or a closing parenthesis
+[INFO ] 2015-12-13 22:40:36.530 [main] EvaluatorTestException - Parameterized String is : (((9+10)))+2/
+[INFO ] 2015-12-13 22:40:36.530 [main] EvaluatorTestException - Invalid expression, can't end expression with an operator or an opening parenthesis
+[INFO ] 2015-12-13 22:40:42.048 [main] EvaluatorTestWithInfixClass - Parameterized String is : (500*1.7/-5.3)+2-0.75/1.45
+[INFO ] 2015-12-13 22:40:42.052 [main] EvaluatorTestWithInfixClass - Expected Result : -158.89
+[INFO ] 2015-12-13 22:40:42.052 [main] EvaluatorTestWithInfixClass - Actual Result : -158.89
+[INFO ] 2015-12-13 22:40:42.053 [main] EvaluatorTestWithInfixClass - Parameterized String is : (-96/7)+(0.99*70)/(1.07*2)
+[INFO ] 2015-12-13 22:40:42.054 [main] EvaluatorTestWithInfixClass - Expected Result : 18.67
+[INFO ] 2015-12-13 22:40:42.054 [main] EvaluatorTestWithInfixClass - Actual Result : 18.67
+[INFO ] 2015-12-13 22:40:42.055 [main] EvaluatorTestWithInfixClass - Parameterized String is : 68+(2+9-18)/1.2*5.3
+[INFO ] 2015-12-13 22:40:42.055 [main] EvaluatorTestWithInfixClass - Expected Result : 37.08
+[INFO ] 2015-12-13 22:40:42.056 [main] EvaluatorTestWithInfixClass - Actual Result : 37.08
+[INFO ] 2015-12-13 22:40:42.056 [main] EvaluatorTestWithInfixClass - Parameterized String is : -99+3+1-2/(-4+0.5)
+[INFO ] 2015-12-13 22:40:42.056 [main] EvaluatorTestWithInfixClass - Expected Result : -94.43
+[INFO ] 2015-12-13 22:40:42.057 [main] EvaluatorTestWithInfixClass - Actual Result : -94.43
+[INFO ] 2015-12-13 22:40:42.057 [main] EvaluatorTestWithInfixClass - Parameterized String is : (100/0.3*0.5+4)*0.75
+[INFO ] 2015-12-13 22:40:42.058 [main] EvaluatorTestWithInfixClass - Expected Result : 128.0
+[INFO ] 2015-12-13 22:40:42.058 [main] EvaluatorTestWithInfixClass - Actual Result : 128.0
+[INFO ] 2015-12-13 22:40:42.058 [main] EvaluatorTestWithInfixClass - Parameterized String is : 30/(50+0.5)*10/-5
+[INFO ] 2015-12-13 22:40:42.060 [main] EvaluatorTestWithInfixClass - Expected Result : -1.19
+[INFO ] 2015-12-13 22:40:42.060 [main] EvaluatorTestWithInfixClass - Actual Result : -1.19
+[INFO ] 2015-12-13 22:40:42.060 [main] EvaluatorTestWithInfixClass - Parameterized String is : (10-20)*2-3*2
+[INFO ] 2015-12-13 22:40:42.061 [main] EvaluatorTestWithInfixClass - Expected Result : -26.0
+[INFO ] 2015-12-13 22:40:42.061 [main] EvaluatorTestWithInfixClass - Actual Result : -26.0
+[INFO ] 2015-12-13 22:40:42.062 [main] EvaluatorTestWithInfixClass - Parameterized String is : (4*2+3-2)/(6/8)
+[INFO ] 2015-12-13 22:40:42.066 [main] EvaluatorTestWithInfixClass - Expected Result : 12.0
+[INFO ] 2015-12-13 22:40:42.067 [main] EvaluatorTestWithInfixClass - Actual Result : 12.0
+[INFO ] 2015-12-13 22:40:42.067 [main] EvaluatorTestWithInfixClass - Parameterized String is : (1+8-5/2)*2+4
+[INFO ] 2015-12-13 22:40:42.068 [main] EvaluatorTestWithInfixClass - Expected Result : 17.0
+[INFO ] 2015-12-13 22:40:42.068 [main] EvaluatorTestWithInfixClass - Actual Result : 17.0
+[INFO ] 2015-12-13 22:40:42.068 [main] EvaluatorTestWithInfixClass - Parameterized String is : 18+2-0.75/(-2*0.5)
+[INFO ] 2015-12-13 22:40:42.069 [main] EvaluatorTestWithInfixClass - Expected Result : 20.75
+[INFO ] 2015-12-13 22:40:42.069 [main] EvaluatorTestWithInfixClass - Actual Result : 20.75
+[INFO ] 2015-12-13 22:40:47.524 [main] EvaluatorTestWithQueue - Parameterized String is : 1+255/3+(1*2)
+[INFO ] 2015-12-13 22:40:47.528 [main] EvaluatorTestWithQueue - Expected Result : 88.0
+[INFO ] 2015-12-13 22:40:47.528 [main] EvaluatorTestWithQueue - Actual Result : 88.0
+[INFO ] 2015-12-13 22:40:47.529 [main] EvaluatorTestWithQueue - Parameterized String is : (360-2.50)/(2*(3-2)+62)
+[INFO ] 2015-12-13 22:40:47.530 [main] EvaluatorTestWithQueue - Expected Result : 5.59
+[INFO ] 2015-12-13 22:40:47.530 [main] EvaluatorTestWithQueue - Actual Result : 5.59
+[INFO ] 2015-12-13 22:40:47.531 [main] EvaluatorTestWithQueue - Parameterized String is : (2*3/1)+2
+[INFO ] 2015-12-13 22:40:47.531 [main] EvaluatorTestWithQueue - Expected Result : 8.0
+[INFO ] 2015-12-13 22:40:47.531 [main] EvaluatorTestWithQueue - Actual Result : 8.0
+[INFO ] 2015-12-13 22:40:47.531 [main] EvaluatorTestWithQueue - Parameterized String is : 1+(2.5-0.75)/70
+[INFO ] 2015-12-13 22:40:47.532 [main] EvaluatorTestWithQueue - Expected Result : 1.02
+[INFO ] 2015-12-13 22:40:47.532 [main] EvaluatorTestWithQueue - Actual Result : 1.02
+[INFO ] 2015-12-13 22:40:47.532 [main] EvaluatorTestWithQueue - Parameterized String is : (-22+4)/9
+[INFO ] 2015-12-13 22:40:47.533 [main] EvaluatorTestWithQueue - Expected Result : -2.0
+[INFO ] 2015-12-13 22:40:47.533 [main] EvaluatorTestWithQueue - Actual Result : -2.0
+[INFO ] 2015-12-13 22:40:47.533 [main] EvaluatorTestWithQueue - Parameterized String is : ((64-7)+(44/4))/2
+[INFO ] 2015-12-13 22:40:47.534 [main] EvaluatorTestWithQueue - Expected Result : 34.0
+[INFO ] 2015-12-13 22:40:47.534 [main] EvaluatorTestWithQueue - Actual Result : 34.0
+[INFO ] 2015-12-13 22:40:47.534 [main] EvaluatorTestWithQueue - Parameterized String is : 3.6+-0.2-4*9
+[INFO ] 2015-12-13 22:40:47.534 [main] EvaluatorTestWithQueue - Expected Result : -32.6
+[INFO ] 2015-12-13 22:40:47.534 [main] EvaluatorTestWithQueue - Actual Result : -32.6
+[INFO ] 2015-12-13 22:40:47.535 [main] EvaluatorTestWithQueue - Parameterized String is : 34*4+((9*10)/2)
+[INFO ] 2015-12-13 22:40:47.535 [main] EvaluatorTestWithQueue - Expected Result : 181.0
+[INFO ] 2015-12-13 22:40:47.535 [main] EvaluatorTestWithQueue - Actual Result : 181.0
+[INFO ] 2015-12-13 22:40:47.536 [main] EvaluatorTestWithQueue - Parameterized String is : (-0.4+-1.5+4)*5
+[INFO ] 2015-12-13 22:40:47.540 [main] EvaluatorTestWithQueue - Expected Result : 10.5
+[INFO ] 2015-12-13 22:40:47.540 [main] EvaluatorTestWithQueue - Actual Result : 10.5
+[INFO ] 2015-12-13 22:40:47.540 [main] EvaluatorTestWithQueue - Parameterized String is : ((74+52)/2)*((9*8)/4)
+[INFO ] 2015-12-13 22:40:47.544 [main] EvaluatorTestWithQueue - Expected Result : 1134.0
+[INFO ] 2015-12-13 22:40:47.545 [main] EvaluatorTestWithQueue - Actual Result : 1134.0
+[INFO ] 2015-12-13 22:40:47.545 [main] EvaluatorTestWithQueue - Parameterized String is : 0.2*0.2+1.01*6
+[INFO ] 2015-12-13 22:40:47.546 [main] EvaluatorTestWithQueue - Expected Result : 6.1
+[INFO ] 2015-12-13 22:40:47.546 [main] EvaluatorTestWithQueue - Actual Result : 6.1
+[INFO ] 2015-12-13 22:40:47.547 [main] EvaluatorTestWithQueue - Parameterized String is : (44/2)*(53/2)
+[INFO ] 2015-12-13 22:40:47.548 [main] EvaluatorTestWithQueue - Expected Result : 583.0
+[INFO ] 2015-12-13 22:40:47.548 [main] EvaluatorTestWithQueue - Actual Result : 583.0
+[INFO ] 2015-12-13 22:40:47.548 [main] EvaluatorTestWithQueue - Parameterized String is : 100*4+-72+63
+[INFO ] 2015-12-13 22:40:47.548 [main] EvaluatorTestWithQueue - Expected Result : 391.0
+[INFO ] 2015-12-13 22:40:47.548 [main] EvaluatorTestWithQueue - Actual Result : 391.0
+[INFO ] 2015-12-13 22:40:47.549 [main] EvaluatorTestWithQueue - Parameterized String is : ((86*1.63)/2)*54
+[INFO ] 2015-12-13 22:40:47.549 [main] EvaluatorTestWithQueue - Expected Result : 3784.86
+[INFO ] 2015-12-13 22:40:47.549 [main] EvaluatorTestWithQueue - Actual Result : 3784.86
+[INFO ] 2015-12-13 22:40:47.550 [main] EvaluatorTestWithQueue - Parameterized String is : (((9+10)))+2
+[INFO ] 2015-12-13 22:40:47.550 [main] EvaluatorTestWithQueue - Expected Result : 21.0
+[INFO ] 2015-12-13 22:40:47.550 [main] EvaluatorTestWithQueue - Actual Result : 21.0

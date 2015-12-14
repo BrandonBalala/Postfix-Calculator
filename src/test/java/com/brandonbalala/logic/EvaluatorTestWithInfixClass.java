@@ -56,16 +56,20 @@ public class EvaluatorTestWithInfixClass {
 			infix.setInfixQueue(infixString);
 			postfix.parsePostfix(infix);
 		} catch (InfixParsingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			log.info(e.getMessage());
 		} catch (PostfixParsingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			log.info(e.getMessage());
 		} catch (Exception e){
-			e.printStackTrace();
+			log.info(e.getMessage());
 		}
 
-		Double result = Math.round(postfix.solvePostfixExpression() * 100.0) / 100.0;
+		Double result = 0.0;
+		try {
+			result = Math.round(postfix.solvePostfixExpression() * 100.0) / 100.0;
+		} catch (PostfixParsingException e) {
+			log.info(e.getMessage());
+		}
+		
 		log.info("Expected Result : " + expectedResult);
 		log.info("Actual Result : " + result);
 
