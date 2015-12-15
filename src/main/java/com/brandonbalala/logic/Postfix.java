@@ -26,12 +26,12 @@ public class Postfix {
 	}
 
 	/**
-	 * Get the postfix queue
+	 * Get a copy of the postfix queue
 	 * 
 	 * @return
 	 */
 	public Queue<String> getPostFixQueue() {
-		return postfixQueue;
+		return new LinkedList<String>(postfixQueue);
 	}
 
 	/**
