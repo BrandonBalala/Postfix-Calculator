@@ -44,11 +44,12 @@ public class EvaluatorTestException {
 	public static Collection<Object[]> expressionAndExpectedResults() {
 		return Arrays.asList(
 			new Object[][] {
-				{ new String[] { "0.2", "HELLO KEN", "0.2", "+", "1.01", "*", "6" }, new Double(6.1) },
-				{ new String[] { "(", "44", "/", "/", ")", "*", "(", "53", "/", "2", ")" }, new Double(583) },
+				{ new String[] { "0.2", "HELLO KEN", "0.2", "+", "1.01", "*", "6" }, new Double(0) },
+				{ new String[] { "(", "44", "/", "/", ")", "*", "(", "53", "/", "2", ")" }, new Double(0) },
 				{ new String[] { "100", "*", "4", "(", "-72", ")", "63" }, new Double(391) },
-				{ new String[] { ")", "(", "86", "*", "1.63", ")", "/", "2", ")", "*", "54" }, new Double(3784.86) },
-				{ new String[] { "(", "(", "(", "9", "+", "10", ")", ")", ")", "+", "2", "/" }, new Double(21) } 
+				{ new String[] { ")", "(", "86", "*", "1.63", ")", "/", "2", ")", "*", "54" }, new Double(0) },
+				{ new String[] { "(", "(", "(", "9", "+", "10", ")", ")", ")", "+", "2", "/" }, new Double(0) }, 
+				{ new String[] { "(", "-22", "+", "4", ")", "/", "0" }, new Double(0) }
 			});
 	}
 
